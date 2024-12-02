@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyNetloadX</RootNamespace>
     <AssemblyName>MyNetloadX</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -36,17 +36,14 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AcCoreMgd">
-      <HintPath>C:\ObjectARX 2015\inc\AcCoreMgd.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\Program Files\Autodesk\AutoCAD 2021\accoremgd.dll</HintPath>
     </Reference>
-    <Reference Include="AcDbMgd">
-      <HintPath>C:\ObjectARX 2015\inc\AcDbMgd.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="acdbmgd">
+      <HintPath>..\..\Program Files\Autodesk\AutoCAD 2021\acdbmgd.dll</HintPath>
     </Reference>
-    <Reference Include="AcMgd">
-      <HintPath>C:\ObjectARX 2015\inc\AcMgd.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="acmgd">
+      <HintPath>..\..\Program Files\Autodesk\AutoCAD 2021\acmgd.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualBasic" />
